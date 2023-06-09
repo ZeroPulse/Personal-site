@@ -1,0 +1,287 @@
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+}
+
+
+/* Section 1 */
+
+.top-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    max-width: 1200px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 1px solid rgb(58, 58, 58);
+    border-bottom: 3px solid rgb(58, 58, 58);
+}
+
+
+.quote {
+    display: flex;
+    width: 100%;
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 200;
+    justify-content:center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 10%;
+    padding-right: 8%;
+}
+
+
+.cover2 {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+/* Section 2 */
+
+.middle-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color:rgb(20, 20, 20);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 992px;
+    border-radius: 8px;
+    border: 1px solid rgb(58, 58, 58);
+    border-bottom: 3px solid rgb(58, 58, 58);
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+.profilepic {
+    border: 2px solid rgb(192, 192, 192);
+    padding: 3px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    color: rgb(68, 133, 207);
+    width: 70%;
+    text-align: center;
+    
+}
+
+
+.introduction {
+    display: flex;
+    width: 70%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify;
+    color: rgb(161, 161, 161);
+}
+
+
+.logo {
+    border: 2px solid rgb(192, 192, 192);
+    padding: 3px;
+    border-radius: 50%;
+    float: left;
+}
+
+
+.category {
+    display: block;
+    justify-content: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: rgb(68, 133, 207);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.description {
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify;
+    color: rgb(161, 161, 161);
+    margin: 0;
+}
+
+
+.my_skills {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    row-gap: 5px;
+    width: 70%;
+    flex-wrap: wrap;
+}
+
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.topic {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: rgb(68, 133, 207);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.button:hover {opacity: 1}
+
+a {
+    color:white;
+    font-weight: 500;
+}
+
+
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    color:  rgb(134, 132, 132);
+}
+
+
+
+/* Gallery */
+
+.gallery-top {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    background-color:rgb(20, 20, 20);
+    max-width: 992px;
+    border-radius: 8px;
+    border: 1px solid rgb(58, 58, 58);
+    border-bottom: 3px solid rgb(58, 58, 58);
+    margin-bottom: 20px;
+}
+
+.gallery-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    color: rgb(68, 133, 207);
+    text-align: center;
+    margin-left: 1rem;
+
+}
+
+.draw-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color:rgb(20, 20, 20);
+    max-width: 992px;
+    border-radius: 8px;
+    border: 1px solid rgb(58, 58, 58);
+    border-bottom: 3px solid rgb(58, 58, 58);
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+.draw {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.car_name {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(161, 161, 161);
+    margin-top: 1rem;
+}
+
+
+@media (max-width: 600px) {
+    .quote {
+        font-size: 2rem;
+    }
+    .profilepic {
+        width: 100px;
+    }
+    .subtitle {
+        font-size: 1.5rem;
+    }
+    .introduction {
+        font-size: 0.8rem;
+    }
+    .logo {
+        width: 30px;
+    }
+    .category {
+        font-size: 1rem;
+    }
+    .description {
+        font-size: 0.8rem;
+    }
+    .car_name {
+        font-size: 1rem;
+    }
+    .button {
+        font-size: 0.5rem;
+    }
+}
