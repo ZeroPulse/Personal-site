@@ -161,12 +161,14 @@ html {
     margin-bottom: 20px;
 }
 
-.button {
+.btn {
     background-color: rgb(68, 133, 207);
     border: none;
     border-radius: 15px;
     color: white;
     padding: 5px 20px;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
     text-align: center;
     font-size: 0.8rem;
     margin: 4px 2px;
@@ -177,7 +179,7 @@ html {
 }
 
 
-.button:hover {opacity: 1}
+.btn:hover {opacity: 1}
 
 a {
     color:white;
